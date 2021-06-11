@@ -9,7 +9,7 @@
    2. [Requisitos del sistema.](#requisitos)
    3. [Definición de interfaces de usuario.](#definicion)
    4. [Planificación temporal.](#planificacion_temp)
-   5. Especificación del plan de pruebas.
+   5. [Estructura y modelo de la aplicación](#estructura)
 3. [Desarrollo del sistema.](#development)
    1. [Planificación de las actividades de desarrollo.](#planificacion_act)
    2. [Descripción del entorno de desarrollo.](#descripcion)
@@ -398,10 +398,30 @@ Finalmente, la planificación cambio a la actual dejando el modo objetivo de gru
 
 ![FireShot Capture 002 -  - ](img/alvaro/FireShot_2.png) 
 
+<a name="estructura"></a>
+
+### 5. Estructura y modelo de la aplicación
+
+En esta sección definiremos los detalles de la estructura y modelo de la aplicación.
+
+#### 1. Modelo entidad relación
+
+En este apartado podemos observar las tablas de la base de datos de nuestra aplicación.
+
+![Diagrama entidad relación](img/uml/database.png)
+
+#### 2. Estructura de Java
+
+qwer
+
+#### 3. Estructura de Angular
+
+zxcv
 
 
 
 <a name="development"></a>
+
 ## 3. Desarrollo del sistema
 
 <a name="planificacion_act"></a>
@@ -1125,26 +1145,7 @@ Esta funcionalidad añade graficas para entender Diet2gether de una forma mas vi
   - Traspaso de datos por medio de inputs
   - Estilos
 
-<a name="documentacion"></a>
-### 4. Documentación
 
-En esta sección definiremos la documentación de nuestro proyecto, especificando los detalles de la estructura y modelo de la aplicación.
-
-#### 1. Modelo entidad relación
-
-En este apartado podemos observar las tablas de la base de datos de nuestra aplicación.
-
-![Diagrama entidad relación](img/uml/database.png)
-
-
-
-#### 2. Estructura de Java
-
-qwer
-
-#### 3. Estructura de Angular
-
-zxcv
 
 ---
 
