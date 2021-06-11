@@ -178,7 +178,7 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
 1. #### Pantalla de Bienvenida
 
-   ![](img\alvaro\welcome.gif)
+   ![](img/alvaro/welcome.gif)
 
    Esta es la primera pantalla que se ve en la aplicación. Da la bienvenida a los usuarios y expone algunas de las funcionalidades que tiene Diet2gether. El botón "Vamos" nos permite entrar a la web.
 
@@ -188,11 +188,11 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta es una secuencia de dos pantallas. En esta primera pantalla el usuario puede registrarse con un nombre de usuario único y una contraseña. Para aplicar el formulario es necesario rellenar todos los campos y que las contraseñas coincidan. Además es posible ver las contraseñas para la comodidad del usuario. Si se pulsa en "Si ya estás registrado...", la pagina redirigirá al usuario a la pantalla de Inicio de Sesión.
 
-    ![image-20210608165227491](img\alvaro\image-20210608165227491.png)
+    ![image-20210608165227491](img/alvaro/image-20210608165227491.png)
 
     Una vez realizado el registro anterior, pasamos a la segunda pantalla de registro de datos. En este formulario se terminan de rellenar los datos del atleta. Todos los campos son obligatorios, se rellenaran el nombre, apellidos, fecha de nacimiento, y lo mas importante los datos físicos del atleta, el peso y la altura.
 
-    ![chrome-capture (1)](img\alvaro\chrome-capture (1).gif)
+    ![chrome-capture (1)](img/alvaro/chrome-capture (1).gif)
 
     Cuando se completa el registro el sistema nos dará un alerta de éxito o de error dependiendo del resultado.
 
@@ -202,11 +202,11 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Cuando un usuario ya esta registrado en la aplicación puede iniciar sesión en ella. Esto es posible gracias a la pantalla de inicio de sesión.
 
-    ![image-20210608180133143](img\alvaro\image-20210608180133143.png)
+    ![image-20210608180133143](img/alvaro/image-20210608180133143.png)
 
     Si se produce un error en el sistema de autenticación el usuario es notificado.
 
-    ![image-20210608180234822](img\alvaro\image-20210608180234822.png)
+    ![image-20210608180234822](img/alvaro/image-20210608180234822.png)
 
     Si todo ha salido correctamente, el usuario será redirigido a la pagina principal.
 
@@ -216,9 +216,9 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta es la pantalla principal o "home " de Diet2gether. Desde ella podremos ver información de nuestra dieta, y acceder a los diferentes sitios de la web.
 
-    ![chrome-capture (2)](img\alvaro\chrome-capture (2).gif)
+    ![chrome-capture (2)](img/alvaro/chrome-capture (2).gif)
 
-    ![image-20210608191119291](img\alvaro\image-20210608191119291.png)
+    ![image-20210608191119291](img/alvaro/image-20210608191119291.png)
 
     Como vemos en la imagen, una de las cosas interesantes es que nos muestra los platos del día de la semana en el que nos encontramos. También nos ofrece información de los diferentes apartados de la web, y accesos a estos. 
 
@@ -230,11 +230,11 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     En la pantalla de social, podemos ver nuestros amigos, añadir nuevos y aceptar las solicitudes de amistad y grupos que recibamos.
 
-    ![chrome-capture (3)](img\alvaro\chrome-capture (3).gif)
+    ![chrome-capture (3)](img/alvaro/chrome-capture (3).gif)
 
     Esta controlado que no puedas tener solicitudes de amistad usuarios que ya pertenezcan a la lista de amigos. También que en el buscador de usuarios, solo se limiten a salir usuarios que no se le ha mandado ya una solicitud o ya sean amigos del usuario remitente.
 
-    ![image-20210608191241104](img\alvaro\image-20210608191241104.png)
+    ![image-20210608191241104](img/alvaro/image-20210608191241104.png)
 
     
 
@@ -242,11 +242,11 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta pantalla es una muy buena manera de tener cierta retroalimentación con los usuarios. Desde este formulario los usuarios podrán reportar sugerencias a los desarrolladores. 
 
-    ![image-20210608191644286](img\alvaro\image-20210608191644286.png)
+    ![image-20210608191644286](img/alvaro/image-20210608191644286.png)
 
     De momento existen dos categorías de reportes, una vez enviado, el reporte se almacenara para que los administradores lo traten.
 
-    ![image-20210608191756413](img\alvaro\image-20210608191756413.png)
+    ![image-20210608191756413](img/alvaro/image-20210608191756413.png)
 
     
 
@@ -254,15 +254,15 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta pantalla tiene relación con la anterior. Además tiene una peculiaridad y es que solo los usuarios con el rol de administrador y desarrolladores pueden visitarla. En esta pantalla podremos ver los reportes que han enviado los usuarios.
 
-    ![image-20210608192402553](img\alvaro\image-20210608192402553.png)
+    ![image-20210608192402553](img/alvaro/image-20210608192402553.png)
 
     Si pulsamos el icono del ojo, podremos ver de que trata el reporte.
 
-    ![image-20210608192545835](img\alvaro\image-20210608192545835.png)
+    ![image-20210608192545835](img/alvaro/image-20210608192545835.png)
 
     Si pulsamos en el icono de la mano podremos asignarnos ese reporte como administradores y se añadirá a nuestros reportes asignados.
 
-    ![image-20210608192654627](img\alvaro\image-20210608192654627.png)
+    ![image-20210608192654627](img/alvaro/image-20210608192654627.png)
 
     
 
@@ -270,25 +270,25 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta es una de las pantallas en las que se desarrollan una de las actividades de Diet2gether. Es una secuencia de pantallas que tiene varias fases. En la primera frase, se explica de que trata la actividad y nos permite ir a ver nuestro grupo o crearlo si no estamos en ninguno.
 
-    ![image-20210608193122503](img\alvaro\image-20210608193122503.png)
+    ![image-20210608193122503](img/alvaro/image-20210608193122503.png)
 
     Si seleccionamos la opción de crear grupo, nos aparecerá un formulario en el que podremos indica, el nombre del grupo, la fecha en la que terminara (controlada para que tenga una duración mínima de un mes) y los amigos a los que se les mandara la solicitud de invitación al grupo.
 
-    ![image-20210608193435088](img\alvaro\image-20210608193435088.png)
+    ![image-20210608193435088](img/alvaro/image-20210608193435088.png)
 
     Cuando ya tenemos un grupo, nos da la opción de ver las características y estadísticas de este. En la primera pestaña, puede verse cuanto tiempo restante queda para que la actividad de grupo termine.  También se puede ver un ranking para ver como van las puntuaciones del grupo.
 
-    ![image-20210609192623362](img\alvaro\image-20210609192623362.png)
+    ![image-20210609192623362](img/alvaro/image-20210609192623362.png)
 
     En la segunda pestaña, puede observarse los registros personales añadidos en el transcurso del grupo. Nos proporciona la opción de añadir un nuevo registro, y si ya hemos añadido un registro esa semana, nos indica cuando podremos registrar el siguiente. Además, nos indica cuantos kilos hemos perdido o ganado en lo que lleva el grupo funcionando. Por ultimo, te muestra todos los registros realizados por el usuario en ese grupo, indicando el peso del registro y la diferencia de peso con el anterior.
 
-    ![image-20210609192858329](img\alvaro\image-20210609192858329.png)
+    ![image-20210609192858329](img/alvaro/image-20210609192858329.png)
 
     En la ultima pestaña se pueden ver estadísticas en forma de gráficos, para entender de una forma mas visual el progreso de los integrantes en el grupo.
 
-    ![image-20210609193122555](img\alvaro\image-20210609193122555.png)
+    ![image-20210609193122555](img/alvaro/image-20210609193122555.png)
 
-    ![image-20210609193145637](img\alvaro\image-20210609193145637.png)
+    ![image-20210609193145637](img/alvaro/image-20210609193145637.png)
 
     
 
@@ -296,23 +296,23 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta pantalla representa otra de nuestras actividades. Es una secuencia de varias pantallas. En la primera parte, se informara a los usuarios como funciona esta actividad.
 
-    ![image-20210609194902575](img\alvaro\image-20210609194902575.png)
+    ![image-20210609194902575](img/alvaro/image-20210609194902575.png)
 
     Si no pertenecemos a una actividad la aplicación nos permite crear una actividad a través del botón "Crear Actividad Privada". Podemos terminar de crear nuestra actividad a partir del siguiente formulario. Según lo que indiquemos en el formulario se enseñara una pequeña descripción para explicar cada opción. Podremos escoger el peso objetivo, en el que queremos estar cuando acabe la actividad, el tiempo que va a durar la actividad, y los diferentes modos de la actividad.
 
-    ![image-20210609195534272](img\alvaro\image-20210609195534272.png)
+    ![image-20210609195534272](img/alvaro/image-20210609195534272.png)
 
     Si ya tenemos una actividad privada activa, la aplicación nos da la opción a visitarla por medio del botón "Ir a Actividad Privada". En la primera pestaña, se puede observar cuanto queda para que la actividad termine, y cierta información de la actividad, por ejemplo los modos que se aplican.
 
-    ![image-20210609200829519](img\alvaro\image-20210609200829519.png)
+    ![image-20210609200829519](img/alvaro/image-20210609200829519.png)
 
     Esta segunda pestaña, es exclusiva del modo "progresivo" en el que podremos registrar nuestro peso diariamente. Nos permite añadir un nuevo registro diario, nos da la información de lo que hemos perdido o ganado, y nos muestra los registros diarios.
 
-    ![image-20210609201006873](img\alvaro\image-20210609201006873.png)
+    ![image-20210609201006873](img/alvaro/image-20210609201006873.png)
 
     En la ultima pestaña, que es común tanto al modo progresivo como al modo clásico, se almacenan los registros semanales. La obtención de dichos registros cambia según el modo (se explica en el apartado de desarrollo). En esta sección podremos ver los registros semanales dando la información del peso y su diferencia.
 
-    ![image-20210609201151165](img\alvaro\image-20210609201151165.png)
+    ![image-20210609201151165](img/alvaro/image-20210609201151165.png)
 
     
 
@@ -320,31 +320,31 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
      Esta sección de Diet2gether permite al usuario organizar sus dietas y platos. Cuando un usuario entra por primera vez a este apartado, la aplicación informa de que aun no tiene una dieta ni platos, y da la opción a que el usuario pueda crear sus platos.
 
-     ![image-20210609201503557](img\alvaro\image-20210609201503557.png)
+     ![image-20210609201503557](img/alvaro/image-20210609201503557.png)
 
      Una vez el usuario decide crear su primer plato pulsando el botón "Ir a mis platos", se da la opción de añadir un plato.
 
-     ![image-20210609201708269](img\alvaro\image-20210609201708269.png)
+     ![image-20210609201708269](img/alvaro/image-20210609201708269.png)
 
      En este formulario puede crearse un plato, indicando su nombre, una descripcion, y las categorias que tiene ese plato.
 
-     ![image-20210609201807170](img\alvaro\image-20210609201807170.png)
+     ![image-20210609201807170](img/alvaro/image-20210609201807170.png)
 
      Cuando se crea el plato, este se guarda y aparece inmediatamente en tu lista de platos.
 
-     ![image-20210609201901286](img\alvaro\image-20210609201901286.png)
+     ![image-20210609201901286](img/alvaro/image-20210609201901286.png)
 
      Cuando ya tenemos platos disponibles, en la pestaña de "Mi Dieta" se habilita la opcion de "Crear dieta".
 
-     ![image-20210609202041381](img\alvaro\image-20210609202041381.png)
+     ![image-20210609202041381](img/alvaro/image-20210609202041381.png)
 
      Una vez se crea la dieta, aparacera inmediatamente una estructura semanal en la que se podran añadir los platos creados anteriormente.
 
-     ![image-20210609202155740](img\alvaro\image-20210609202155740.png)
+     ![image-20210609202155740](img/alvaro/image-20210609202155740.png)
 
      Se podrá añadir un plato pulsando el botón "Elegir plato", y usando el siguiente formulario que nos permite filtrar los platos por su nombre o por sus categorías.
 
-     ![image-20210609202419099](img\alvaro\image-20210609202419099.png)
+     ![image-20210609202419099](img/alvaro/image-20210609202419099.png)
 
      
 
@@ -352,27 +352,27 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
      En esta pantalla el usuario podrá ver su información. Es una pantalla formada por varias pestañas en las que en cada una se indicaran datos de la aplicación y físicos del atleta.
 
-     ![image-20210609202645829](img\alvaro\image-20210609202645829.png)
+     ![image-20210609202645829](img/alvaro/image-20210609202645829.png)
 
      En estas primera pestaña, se podra ver informacion personal del atleta, si se pulsa el boton de modificar se indicaran los campos posibles de cambiar.
 
-     ![image-20210609202816095](img\alvaro\image-20210609202816095.png)
+     ![image-20210609202816095](img/alvaro/image-20210609202816095.png)
 
      En la segunda pestaña, podemos ver datos del IMC del atleta.
 
-     ![image-20210609203424275](img\alvaro\image-20210609203424275.png)
+     ![image-20210609203424275](img/alvaro/image-20210609203424275.png)
 
      La tercera pestaña sirve para ver los baremos que puede alcanzar el atleta con mas detalle.
 
-     ![image-20210609203631031](img\alvaro\image-20210609203631031.png)
+     ![image-20210609203631031](img/alvaro/image-20210609203631031.png)
 
      La ultima pestaña, es para ver datos del atleta de forma grafica. El primer grafico que nos encontramos nos indica el peso en cada registro a lo largo del tiempo. El segundo grafico nos indica las diferencias de peso en cada registro a lo largo del tiempo. 
 
-     ![image-20210609203757635](img\alvaro\image-20210609203757635.png)
+     ![image-20210609203757635](img/alvaro/image-20210609203757635.png)
 
      La tercera grafica nos indica los puntos que llevamos en total en la aplicación. Y el ultimo nos indica de forma grafica nuestros baremos y en cual nos encontramos.
 
-     ![image-20210609203846390](img\alvaro\image-20210609203846390.png)
+     ![image-20210609203846390](img/alvaro/image-20210609203846390.png)
 
 
 
@@ -386,13 +386,13 @@ En este primer esquema, muestra la primera planificación que se propuso para el
 
 
 
-![FireShot Capture 001 -  - ](img\alvaro\FireShot Capture 001 -  - .png)
+![FireShot Capture 001 -  - ](img/alvaro/FireShot Capture 001 -  - .png)
 
 
 
 Finalmente, la planificación cambio a la actual dejando el modo objetivo de grupos, la autenticación con Google y el sistema de notificaciones como futuras implementaciones. La planificación final fue la siguiente:
 
-![FireShot Capture 002 -  - ](img\alvaro\FireShot Capture 002 -  - .png) 
+![FireShot Capture 002 -  - ](img/alvaro/FireShot Capture 002 -  - .png) 
 
 
 
@@ -838,19 +838,19 @@ En primer lugar, señalaremos que entidades se crearon para esta nueva funcional
 
   - **DietRegime**: Entidad que guarda la información sobre la dieta. Una dieta tiene una lista de platos y una lista de días.
 
-    ![image-20210610191423380](img\alvaro\image-20210610191423380.png)
+    ![image-20210610191423380](img/alvaro/image-20210610191423380.png)
 
   - **DietDish**: Entidad que guarda la información sobre los platos. Contiene una lista de categorías (enumerado que guarda los tipos de comida que existen, por ejemplo. pescado, carne...)
 
-    ![image-20210610191549692](img\alvaro\image-20210610191549692.png)
+    ![image-20210610191549692](img/alvaro/image-20210610191549692.png)
 
   - **DietDayRegime**: Esta entidad es la que guarda la estructura de la dieta según los días. Tiene una lista comidas para cada dia.
 
-    ![image-20210610191843819](img\alvaro\image-20210610191843819.png)
+    ![image-20210610191843819](img/alvaro/image-20210610191843819.png)
 
   - **DietMealRegime**: Esta entidad, guarda el plato y el momento del día en el que se come.
 
-    ![image-20210610192031201](img\alvaro\image-20210610192031201.png)
+    ![image-20210610192031201](img/alvaro/image-20210610192031201.png)
 
 - **Controladores y lógica**
 
@@ -860,7 +860,7 @@ En primer lugar, señalaremos que entidades se crearon para esta nueva funcional
 
   Para ello se creo un nuevo controlador y servicio para la funcionalidad, siguiendo la filosofía modular por funcionalidad.
 
-  ![image-20210610192531725](img\alvaro\image-20210610192531725.png)
+  ![image-20210610192531725](img/alvaro/image-20210610192531725.png)
 
   
 
@@ -880,7 +880,7 @@ En primer lugar, señalaremos que entidades se crearon para esta nueva funcional
 
   - **getAthleteDishesByInitials**: este método es muy útil porque permite buscar en los platos exclusivos del usuario a través de sus iniciales. Esto es posible gracias al "@Query" nativo del patrón repositorio de Spring.
 
-    ![image-20210610193430275](img\alvaro\image-20210610193430275.png)
+    ![image-20210610193430275](img/alvaro/image-20210610193430275.png)
 
   - **getRegimeDayOfWeek**: este método nos devuelve el día de la semana en el que se encuentre el usuario, esto ayuda mucho en la parte de la vista, ya que no es necesario estar tratando la entidad completa de dieta, si no que este devuelve solo lo que queremos.
 
@@ -896,11 +896,11 @@ En primer lugar se explicara las entidades añadidas.
 
   - **DietBoostDay**: Entidad que se encuentra en cada grupo de la aplicación. Se encarga de guardar el atleta que actualmente es elegido, y los que han sido los guarda en una lista.
 
-    ![image-20210610194813122](img\alvaro\image-20210610194813122.png)
+    ![image-20210610194813122](img/alvaro/image-20210610194813122.png)
 
   - **DietBoostAthlete**: Entidad que guarda el atleta elegido, el atributo "weightChallenge" es el reto de peso que el atleta debe cumplir en el siguiente registro para que se le de su bonificación.
 
-    ![image-20210610194940392](img\alvaro\image-20210610194940392.png)
+    ![image-20210610194940392](img/alvaro/image-20210610194940392.png)
 
 - **Lógica**
 
@@ -922,11 +922,11 @@ En primer lugar se explicara las entidades añadidas.
 
     - Lectura de datos: en esta fase se leen todos los grupos de la aplicación aplicando ciertos filtros. Por ejemplo, solo se leen los grupos que estén activos y en fecha.
 
-      ![image-20210610200200521](img\alvaro\image-20210610200200521.png)
+      ![image-20210610200200521](img/alvaro/image-20210610200200521.png)
 
     - Procesamiento de datos: en esta fase se encuentra el grueso del proceso. En ella se obtendrá el ultimo atleta por puntuación de cada grupo, aplicando ciertas restricciones que deben darse (se pueden leer en los comentarios del código).
 
-      ![image-20210610201003876](img\alvaro\image-20210610201003876.png)
+      ![image-20210610201003876](img/alvaro/image-20210610201003876.png)
 
     - Escritura de datos: esta fase tiene muchas ramas por las que irse debido al estado en el que este el grupo, por ejemplo el flujo de escritura no es el mismo si ya ha habido un atleta elegido en ese grupo o es la primera semana y no hay ninguno, o si ya lo han sido todos y el próximo elegido forzosamente es uno previamente escogido.
 
@@ -936,7 +936,7 @@ En primer lugar se explicara las entidades añadidas.
 
       Como hay tantos caminos, enseñaremos uno de ejemplo. La siguiente imagen refleja la situación, cuando es el primer día que el grupo tiene programado el proceso.
 
-      ![image-20210610201731008](img\alvaro\image-20210610201731008.png)
+      ![image-20210610201731008](img/alvaro/image-20210610201731008.png)
 
     - *Nota*: este proceso se ejecuta cada día a las 01:00 como hemos indicado anteriormente, sin embargo no actúa en todos los grupos, existe en la fase de escritura una secuencia que incrementa la fecha de ejecución del proceso para grupo de semana en semana. Es decir, si se crea un grupo un lunes, la ejecución del proceso se realizara cada lunes con los registros y puntuaciones de los atletas de ese grupo en ese intervalo de días.
 
@@ -974,13 +974,13 @@ En el siguiente punto van a explicarse los modos de esta nueva actividad para en
 
   - **DietPrivateActivity**: esta entidad se va a encargar de guardar toda la actividad privada. Contiene atributos para comunes para todos los modos, y otros exclusivos. Según los atributos "privateActivityMode" y "privateRegisterMode" la lógica elegirá un camino u otro.
 
-    ![image-20210610232201484](img\alvaro\image-20210610232201484.png)
+    ![image-20210610232201484](img/alvaro/image-20210610232201484.png)
 
 - **Controladores**
 
   Esta parte de la logica es en la que el usuario o la parte cliente tiene interaccion. Veremos las diferentes funciones de esta actividad.
 
-  ![image-20210610232547840](img\alvaro\image-20210610232547840.png)
+  ![image-20210610232547840](img/alvaro/image-20210610232547840.png)
 
   - **createPrivateActivity**: con este endpoint crearemos la actividad privada para ese usuario, solo permite crearla si el usuario no pertenece a una actividad activa.
   - **createRegister**: con este único punto podemos crear un registros independientemente del modo que se haya elegido ya que la lógica escogerá el camino que necesite.
@@ -1000,15 +1000,15 @@ En el siguiente punto van a explicarse los modos de esta nueva actividad para en
 
   - **Lectura de datos**: en este segundo proceso cíclico se aprendió del anterior y se mejoro la eficiencia en la búsqueda y filtrado de los datos correspondientes. En este caso se querían todas las actividades privadas de la aplicación activas, que tuviesen elegido el modo progresivo de registros y que la fecha de ejecución del proceso cíclico coincidiera con el de la actividad privada. En el proceso anterior habían varios condicionales en el programa Java para este filtrado, en este caso, hemos usado una sola consulta a base de datos que nos trae todos los datos a procesar.
 
-    ![image-20210610233904511](img\alvaro\image-20210610233904511.png)
+    ![image-20210610233904511](img/alvaro/image-20210610233904511.png)
 
     Podemos ver la consulta en cuestión usando el "@Query" nativo de Hibernate y Spring.
 
-    ![image-20210610233959996](img\alvaro\image-20210610233959996.png)
+    ![image-20210610233959996](img/alvaro/image-20210610233959996.png)
 
   - **Procesamiento de datos**: en este caso el proceso de datos es rápido, se quiere obtener la media de los registros diarios de ese usuario para esa semana, así que con el uso de un Stream obtenemos el valor.
 
-    ![image-20210610234406273](img\alvaro\image-20210610234406273.png)
+    ![image-20210610234406273](img/alvaro/image-20210610234406273.png)
 
   - **Escritura de datos**: la escritura de datos en esta ocasión es un poco tediosa ya que lo que estamos haciendo no es únicamente la creación de un "registro medio". Este registro creado, que recordemos que si cuenta para la aplicación tiene varios factores que tener en cuenta.
 
@@ -1029,15 +1029,15 @@ Esta funcionalidad añade graficas para entender Diet2gether de una forma mas vi
 
     - DietChartRegisterDto: este "DTO" sirve para almacenar en la variable "name" el nombre del usuario que realizo los registros. En cambio, en el atributo "series" se almacenara una lista de DietRegisterDto.
 
-      ![image-20210610235921559](img\alvaro\image-20210610235921559.png)
+      ![image-20210610235921559](img/alvaro/image-20210610235921559.png)
 
     - DietRegisterDto: en esta clase almacenamos en la variable "name" la fecha en la que se hizo el registro y en el atributo "value" el valor del peso de ese registro.
 
-      ![image-20210611000108693](img\alvaro\image-20210611000108693.png)
+      ![image-20210611000108693](img/alvaro/image-20210611000108693.png)
 
     - DietChartGroupDto: en esta clase almacenaremos el nombre del atleta en la variable "name" y los puntos de ese usuario en el atributo "value".
 
-      ![image-20210611000357816](img\alvaro\image-20210611000357816.png)
+      ![image-20210611000357816](img/alvaro/image-20210611000357816.png)
 
     - *Nota*: los atributos tienen los nombres "series" y "name" porque la librería que se usa para la generación de las graficas necesita que sea así.
 
@@ -1045,7 +1045,7 @@ Esta funcionalidad añade graficas para entender Diet2gether de una forma mas vi
 
     En esta parte veremos los puntos de acceso que están disponibles para que la parte cliente pueda obtener los datos.
 
-    ![image-20210611000608702](img\alvaro\image-20210611000608702.png)
+    ![image-20210611000608702](img/alvaro/image-20210611000608702.png)
 
     - getTotalProfileRegisters: este endpoint proporciona los datos para crear una grafica con todos los registros realizados por un solo usuario y se mostrara en el apartado "Mi Perfil".
     - getTotalProfileWeightDifferenceRegisters: este método es igual que el anterior solo que los valores de la grafica, en lugar de ser el peso, son las diferencias de peso entre registros.
