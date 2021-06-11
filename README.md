@@ -1,26 +1,25 @@
 # Memoria Diet2gether
 
-1. Presentación del proyecto
-   1. Introducción
-   2. Objetivos
-   3. Tecnologías y herramientas empleadas
-2. Diseño del sistema.
-   1. Arquitectura del sistema.
-   2. Requisitos del sistema.
-   3. Definición de interfaces de usuario.
-   4. Planificación temporal.
+1. [Presentación del proyecto](# 1. Presentación del proyecto)
+   1. [Introducción](# 1. Introducción)
+   2. [Objetivos](# 2. Objetivos)
+   3. [Tecnologías y herramientas empleadas](# 3. Tecnologías y herramientas empleadas)
+2. [Diseño del sistema.](# 2. Diseño del sistema.)
+   1. [Arquitectura del sistema.](# 1. Arquitectura del sistema.)
+   2. [Requisitos del sistema.](# 2. Requisitos del sistema.)
+   3. [Definición de interfaces de usuario.](# 3. Definición de interfaces de usuario)
+   4. [Planificación temporal.](# 4. Planificación temporal.)
    5. Especificación del plan de pruebas.
-3. Desarrollo del sistema.
-   1. Planificación de las actividades de desarrollo.
-   2. Descripción del entorno de desarrollo.
-   3. Desarrollo.
-   4. Documentación.
-4. Despliegue e implantación.
-   1. Implantación del sistema y pruebas.
-      1. Instalación de servidores y aplicaciones.
-      2. Pruebas de implantación.
-   2. Formación.
-      1. Manual de usuario.
+3. [Desarrollo del sistema.](# 3. Desarrollo del sistema)
+   1. [Planificación de las actividades de desarrollo.](# 1. Planificación de las actividades de desarrollo.)
+   2. [Descripción del entorno de desarrollo.](# 2. Descripción del entorno de desarrollo.)
+   3. [Desarrollo.](# 3. Desarrollo)
+   4. [Documentación.](# 4. Documentación)
+4. [Despliegue e implantación.](# 4. Despliegue e implantación)
+   1. [Implantación del sistema y pruebas.](# 1. Implantación del sistema y pruebas.)
+      1. [Instalación de servidores y aplicaciones.](# 1. Implantación del sistema y pruebas.)
+   2. [Formación.](# 2. Formación)
+      1. [Manual de usuario.](# 2. Formación)
 5. Mantenimiento.
 6. Conclusiones.
 7. Referencias.
