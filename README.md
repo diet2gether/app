@@ -192,7 +192,7 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Una vez realizado el registro anterior, pasamos a la segunda pantalla de registro de datos. En este formulario se terminan de rellenar los datos del atleta. Todos los campos son obligatorios, se rellenaran el nombre, apellidos, fecha de nacimiento, y lo mas importante los datos físicos del atleta, el peso y la altura.
 
-    ![chrome-capture (1)](img/alvaro/chrome-capture (1).gif)
+    ![chrome-capture (1)](img/alvaro/chrome-capture_1.gif)
 
     Cuando se completa el registro el sistema nos dará un alerta de éxito o de error dependiendo del resultado.
 
@@ -216,7 +216,7 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     Esta es la pantalla principal o "home " de Diet2gether. Desde ella podremos ver información de nuestra dieta, y acceder a los diferentes sitios de la web.
 
-    ![chrome-capture (2)](img/alvaro/chrome-capture (2).gif)
+    ![chrome-capture (2)](img/alvaro/chrome-capture_2.gif)
 
     ![image-20210608191119291](img/alvaro/image-20210608191119291.png)
 
@@ -230,7 +230,7 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
 
     En la pantalla de social, podemos ver nuestros amigos, añadir nuevos y aceptar las solicitudes de amistad y grupos que recibamos.
 
-    ![chrome-capture (3)](img/alvaro/chrome-capture (3).gif)
+    ![chrome-capture (3)](img/alvaro/chrome-capture_3.gif)
 
     Esta controlado que no puedas tener solicitudes de amistad usuarios que ya pertenezcan a la lista de amigos. También que en el buscador de usuarios, solo se limiten a salir usuarios que no se le ha mandado ya una solicitud o ya sean amigos del usuario remitente.
 
@@ -386,13 +386,13 @@ En este primer esquema, muestra la primera planificación que se propuso para el
 
 
 
-![FireShot Capture 001 -  - ](img/alvaro/FireShot Capture 001 -  - .png)
+![FireShot Capture 001 -  - ](img/alvaro/FireShot_1.png)
 
 
 
 Finalmente, la planificación cambio a la actual dejando el modo objetivo de grupos, la autenticación con Google y el sistema de notificaciones como futuras implementaciones. La planificación final fue la siguiente:
 
-![FireShot Capture 002 -  - ](img/alvaro/FireShot Capture 002 -  - .png) 
+![FireShot Capture 002 -  - ](img/alvaro/FireShot_2.png) 
 
 
 
@@ -541,25 +541,83 @@ Aquí vamos a explicar cómo hemos definido nuestras ramas de Java/Spring.
 | :--------------------------- | :------: |
 | Formación Ionic              | 7 horas  |
 | Realizar proyectos de prueba | 14 horas |
-| Creación ...                 | x horas  |
-| a                            | x horas  |
-| b                            | x horas  |
-| c                            | x horas  |
-| d                            | x horas  |
-| e                            | x horas  |
-| Funcionalidad Dietas         | x horas  |
-| g                            | x horas  |
-| h                            | x horas  |
+
+| Funcionalidad dietas                                |         |
+| :-------------------------------------------------- | :-----: |
+| Definición del alcance y de los objetivos           | 2 horas |
+| Creación de las entidades y relaciones              | 2 horas |
+| Creación de controladores, servicios y repositorios | 2 horas |
+| Creación de la funcionalidad platos                 | 3 horas |
+| Creación de la funcionalidad dietas                 | 3 horas |
+| Creación modulo, componentes y servicios            | 5 horas |
+| Creación formularios para añadir platos             | 5 horas |
+| Creación estructura para las dietas                 | 2 horas |
+| Creación de filtros para búsqueda de platos         | 3 horas |
+| Creación de notificación en Home sobre la dieta     | 3 horas |
+
+| Verificación de registros en los grupos              |         |
+| :--------------------------------------------------- | :-----: |
+| Creación y modificación de entidades                 | 3 horas |
+| Creación de servicios                                | 3 horas |
+| Modificación del servicio y lógica de grupos         | 3 horas |
+| Creación de nuevos componentes en la vista de grupos | 2 horas |
+| Actualización del perfil de Group Manager            | 2 horas |
+
+| Funcionalidad BoostDay               |         |
+| :----------------------------------- | :-----: |
+| Creación y modificación de entidades | 2 horas |
+| Creación de servicios y repositorios | 2 horas |
+| Creación de proceso cíclico          | 3 horas |
+| Incorporación cambios a la vista     | 1 hora  |
+
+| Integración Continua                           |         |
+| :--------------------------------------------- | :-----: |
+| Formación e instalación Jenkins                | 2 horas |
+| Aplicar integración Continua con Git y Jenkins | 3 horas |
 
 
 
-| Funcionalidad dietas                   | 2 horas |
-| :------------------------------------- | :-----: |
-| Definición del alcance y los objetivos | 2 horas |
-| a                                      | x horas |
-| b                                      | x horas |
+##### Segundo sprint
+
+| Funcionalidad Actividad Privada                   |         |
+| :------------------------------------------------ | :-----: |
+| Creación y modificación de entidades              | 2 horas |
+| Creación de servicios y repositorios              | 2 horas |
+| Creación de proceso cíclico                       | 5 horas |
+| Creación modulo, componentes y servicios          | 2 horas |
+| Creación formulario creación de actividad privada | 2 horas |
+| Creación información general                      | 3 horas |
+| Creación registros diarios                        | 3 horas |
+| Creación registros generales                      | 3 horas |
+| Creación abandonar actividad privada              | 3 horas |
+
+| Funcionalidad Mi Perfil                  |         |
+| ---------------------------------------- | :-----: |
+| Creación de DTOs para los datos          | 2 horas |
+| Creación modulo, componentes y servicios | 1 hora  |
+| Creación información general             | 3 horas |
+| Creación modificar datos personales      | 3 horas |
 
 
+
+##### Tercer sprint
+
+| Funcionalidad Gráficas o Estadísticas                        |         |
+| ------------------------------------------------------------ | :-----: |
+| Investigación sobre framework sobre gráficas                 | 5 horas |
+| Instalación framework                                        | 2 horas |
+| Estudio de datos para las gráficas                           | 2 horas |
+| Creación por parte del servidor, registros en el perfil      | 2 horas |
+| Creación por parte de la vista, registros en el perfil       | 2 horas |
+| Creación por parte del servidor, diferencias en el perfil    | 3 horas |
+| Creación por parte de la vista, diferencias en el perfil     | 2 horas |
+| Creación por parte de la vista, puntuación total en el perfil | 2 horas |
+| Creación por parte de la vista, baremos en el perfil         | 2 horas |
+| Creación por parte del servidor, registros en el grupo       | 2 horas |
+| Creación por parte de la vista, registros en el grupo        | 3 horas |
+| Creación por parte del servidor, puntuación en el grupo      | 4 horas |
+
+##### 
 
 
 ### 2. Descripción del entorno de desarrollo.
