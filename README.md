@@ -14,7 +14,6 @@
    1. [Planificación de las actividades de desarrollo.](#planificacion_act)
    2. [Descripción del entorno de desarrollo.](#descripcion)
    3. [Desarrollo.](#desarrollo)
-   4. [Documentación.](#documentacion)
 4. [Despliegue e implantación.](#despliegue)
    1. [Implantación del sistema y pruebas.](#implantacion_1)
       1. [Instalación de servidores y aplicaciones.](#implantacion_2)
@@ -22,7 +21,7 @@
       1. [Manual de usuario.](#formacion_2)
 5. Mantenimiento.
 6. Conclusiones.
-7. Referencias.
+7. [Referencias.](#referencias)
 
 ---
 
@@ -412,19 +411,142 @@ En este apartado podemos observar las tablas de la base de datos de nuestra apli
 
 #### 2. Estructura de Java
 
-qwer
+En ésta sección vamos a explicar cómo hemos desarrollado los paquetes de nuestro proyecto Spring/Java.
+
+##### Common
+
+En éste paquete, se incluye puntos genéricos usados en varios sitios de la aplicación.
+
+![Common](img/java/1_common.png)
+
+##### App
+
+En éste paquete, se incluye el fichero principal (main) de la aplicación.
+
+![App](img/java/2_diet2gether.png)
+
+##### Exceptions
+
+En éste paquete, se incluye todo lo relacionado con las excepciones.
+
+Cada fichero se crea pensando en cada funcionalidad de la aplicación.
+
+![Exceptions](img/java/3_exceptions.png)
+
+##### Model
+
+En éste paquete, se incluyen todas las entidades de la aplicación.
+
+![Model](img/java/4_model.png)
+
+##### Repository
+
+En éste paquete, se incluye todo lo relacionado con la persistencia de la aplicación.
+
+![Repository](img/java/5_repo.png)
+
+##### Rest Controller
+
+En éste paquete, se incluye todo lo relacionado con la persistencia de la aplicación.
+
+Cada fichero se crea pensando en cada funcionalidad de la aplicación.
+
+![Rest Controller](img/java/6_controller.png)
+
+##### Services
+
+En éste paquete, se incluyen todos los servicios de la aplicación.
+
+Cada fichero se crea pensando en cada funcionalidad de la aplicación.
+
+![Services](img/java/7_services.png)
+
+##### Security
+
+En éste paquete, se incluye todo lo relacionado con la seguridad de la aplicación.
+
+Lo más destacable de esta sección es el apartado JWT, que permite gestionar las sesiones de cada usuario en la aplicación.
+
+![Security](img/java/8_security.png)
+
+
 
 #### 3. Estructura de Angular
 
-zxcv
+En ésta sección vamos a explicar cómo hemos desarrollado los paquetes de nuestro proyecto Angular.
 
+Como punto a destacar, se ha utilizado un módulo en cada funcionalidad para aplicar lazy loading y de esta forma conseguir mejor rendimiento en la aplicación.
 
+##### Admin
+
+En éste paquete, se incluye la sección de administrador.
+
+Desde aquí los administradores podrán realizar acciones con privilegios, como gestionar los reportes de los usuarios.
+
+![Admin](img/angular/1_admin.png)
+
+##### Common
+
+En éste paquete, se incluyen puntos genéricos usados en varios sitios de la aplicación.
+
+![Common](img/angular/2_common.png)
+
+##### Entry
+
+En éste paquete, se incluyen las secciones de entrada a la aplicación.
+
+Además del apartado de bienvenida, se incluye el inicio de sesión y registro.
+
+![Entry](img/angular/3_entry.png)
+
+##### Group
+
+En éste paquete, se incluye todo lo relacionado con la actividad de grupo.
+
+![Group](img/angular/4_group.png)
+
+##### Home
+
+En éste paquete, se incluye todo lo relacionado con el home de cada usuario.
+
+![Home](img/angular/5_home.png)
+
+##### Private
+
+En éste paquete, se incluye todo lo relacionado con la actividad privada de cada usuario.
+
+![Private](img/angular/6_private.png)
+
+##### Profile
+
+En éste paquete, se incluye todo lo relacionado con el perfil de cada usuario.
+
+![Profile](img/angular/7_profile.png)
+
+##### Regime
+
+En éste paquete, se incluye todo lo relacionado con la dieta y platos de cada usuario.
+
+![Regime](img/angular/8_regime.png)
+
+##### Report
+
+En éste paquete, se incluye todo lo relacionado con los reportes generados por cada usuario.
+
+![Report](img/angular/9_report.png)
+
+##### Social
+
+En éste paquete, se incluye todo lo relacionado con el apartado social.
+
+![Social](img/angular/10_social.png)
 
 <a name="development"></a>
 
 ## 3. Desarrollo del sistema
 
 <a name="planificacion_act"></a>
+
 ### 1. Planificación de las actividades de desarrollo.
 
 En esta sección explicaremos cómo hemos realizado la planificación de desarrollo.
@@ -2135,3 +2257,17 @@ END;
 El objetivo del procedure anterior es actualizar el índice de la dieta de cada usuario.
 
 De esta forma, un usuario podrá crear su dieta en cualquier momento.
+
+
+<a name="referencias"></a>
+## 7. Referencias
+
+En esta sección se indican varias referencias utilizadas durante el proceso de desarrollo de la aplicación.
+
+- [Stackoverflow](https://stackoverflow.com)
+- [Angular](https://angular.io)
+- [Ionic](https://ionicframework.com)
+- [Spring](https://spring.io)
+- [Bootstrap](https://getbootstrap.com)
+- [CSS-Tricks](https://css-tricks.com)
+
