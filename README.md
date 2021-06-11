@@ -1,16 +1,16 @@
 # Memoria Diet2gether
 
-1. [Presentación del proyecto](# 1. Presentación del proyecto)
+1. [Presentación del proyecto](#presentation)
    1. [Introducción](# 1. Introducción)
    2. [Objetivos](# 2. Objetivos)
    3. [Tecnologías y herramientas empleadas](# 3. Tecnologías y herramientas empleadas)
-2. [Diseño del sistema.](# 2. Diseño del sistema.)
+2. [Diseño del sistema.](#design)
    1. [Arquitectura del sistema.](# 1. Arquitectura del sistema.)
    2. [Requisitos del sistema.](# 2. Requisitos del sistema.)
    3. [Definición de interfaces de usuario.](# 3. Definición de interfaces de usuario)
    4. [Planificación temporal.](# 4. Planificación temporal.)
    5. Especificación del plan de pruebas.
-3. [Desarrollo del sistema.](# 3. Desarrollo del sistema)
+3. [Desarrollo del sistema.](#development)
    1. [Planificación de las actividades de desarrollo.](# 1. Planificación de las actividades de desarrollo.)
    2. [Descripción del entorno de desarrollo.](# 2. Descripción del entorno de desarrollo.)
    3. [Desarrollo.](# 3. Desarrollo)
@@ -25,6 +25,8 @@
 7. Referencias.
 
 ---
+
+<a name="presentacion"></a>
 
 # 1. Presentación del proyecto
 
@@ -63,6 +65,7 @@ Desde la parte del servidor se proporcionan unos "endpoints" que son consumidos 
 
 ---
 
+<a name="design"></a>
 # 2. Diseño del sistema.
 
 ## 1. Arquitectura del sistema.
@@ -396,7 +399,7 @@ Finalmente, la planificación cambio a la actual dejando el modo objetivo de gru
 
 
 
-
+<a name="development"></a>
 ## 3. Desarrollo del sistema
 
 ### 1. Planificación de las actividades de desarrollo.
