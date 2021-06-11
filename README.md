@@ -38,7 +38,8 @@ Diet2Gether es una aplicación web y móvil que tiene como objetivo mejorar la s
 
 La aplicación fue concebida debido a una necesidad real de poder mejorar nuestra salud. A la vez que se cumplían objetivos, se aumentaba los conocimientos sobre las tecnologías y metodologías de desarrollo.
 
-<a name="tecnologias"></a>
+<a name="objetivos"></a>
+
 ## 2. Objetivos
 
 En este apartado se listaran los objetivos que se han perseguido durante el desarrollo de Diet2Gether:
@@ -48,8 +49,8 @@ En este apartado se listaran los objetivos que se han perseguido durante el desa
 * Añadir un proyecto de considerable envergadura a nuestro currículo.
 * Aprender a trabajar en equipo.
 * Saber resolver problemas de manera autosuficiente.
-  
-  
+
+<a name="tecnologias"></a>
 ## 3. Tecnologías y herramientas empleadas
 
 Diet2gether es una aplicación disponible para dispositivos móviles y entornos web. Para llevar a cabo el desarrollo se ha usado el patrón de "API REST".
