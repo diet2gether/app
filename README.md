@@ -46,8 +46,8 @@ En este apartado se listaran los objetivos que se han perseguido durante el desa
 * Añadir un proyecto de considerable envergadura a nuestro currículo.
 * Aprender a trabajar en equipo.
 * Saber resolver problemas de manera autosuficiente.
-
-<a name="objetivos"></a>
+  
+  
 ## 3. Tecnologías y herramientas empleadas
 
 Diet2gether es una aplicación disponible para dispositivos móviles y entornos web. Para llevar a cabo el desarrollo se ha usado el patrón de "API REST".
@@ -1060,7 +1060,7 @@ En primer lugar, señalaremos que entidades se crearon para esta nueva funcional
 
 - **Controladores y lógica**
 
-  Una vez se desarrollo el modelo de entidades, se determinaron los endpoints los cuales servirian de punto de entrada para la vista a la lógica de la funcionalidad.
+  Una vez se desarrollo el modelo de entidades, se determinaron los endpoints los cuales servirían de punto de entrada para la vista a la lógica de la funcionalidad.
 
   
 
@@ -1138,7 +1138,7 @@ En primer lugar se explicara las entidades añadidas.
 
       La pregunta es, ¿Por que no se hizo una entidad que fuese sustituyendo al anterior, en lugar de guardar cada atleta elegido?
 
-      La respuesta a esta cuestión es interesante. Ya que se guardan estos datos con vistas a futuros de sacar estadísticas sobre grupos y rendimiento de cada atleta, a través de graficas (funcionalidad que se explicara mas adelante).
+      La respuesta a esta cuestión es interesante. Ya que se guardan estos datos con vistas a futuros de sacar estadísticas sobre grupos y rendimiento de cada atleta, a través de gráficas (funcionalidad que se explicara mas adelante).
 
       Como hay tantos caminos, enseñaremos uno de ejemplo. La siguiente imagen refleja la situación, cuando es el primer día que el grupo tiene programado el proceso.
 
@@ -1184,7 +1184,7 @@ En el siguiente punto van a explicarse los modos de esta nueva actividad para en
 
 - **Controladores**
 
-  Esta parte de la logica es en la que el usuario o la parte cliente tiene interaccion. Veremos las diferentes funciones de esta actividad.
+  Esta parte de la lógica es en la que el usuario o la parte cliente tiene interacción. Veremos las diferentes funciones de esta actividad.
 
   ![image-20210610232547840](img/alvaro/image-20210610232547840.png)
 
@@ -1223,7 +1223,7 @@ En el siguiente punto van a explicarse los modos de esta nueva actividad para en
 
 ##### Funcionalidad gráficas o estadísticas
 
-Esta funcionalidad añade graficas para entender Diet2gether de una forma mas visual. En este caso, el gran peso de la lógica cae en la parte del cliente, ya que para generar los gráficos hemos usado una librería para angular llamada "**ngx-charts**". La parte del servidor se encarga de proporcionar los datos en el formato correcto para que la librería pueda leerlos.
+Esta funcionalidad añade gráficas para entender Diet2gether de una forma mas visual. En este caso, el gran peso de la lógica cae en la parte del cliente, ya que para generar los gráficos hemos usado una librería para angular llamada "**ngx-charts**". La parte del servidor se encarga de proporcionar los datos en el formato correcto para que la librería pueda leerlos.
 
 - **Parte Servidor**
 
@@ -1253,20 +1253,40 @@ Esta funcionalidad añade graficas para entender Diet2gether de una forma mas vi
 
     ![image-20210611000608702](img/alvaro/image-20210611000608702.png)
 
-    - getTotalProfileRegisters: este endpoint proporciona los datos para crear una grafica con todos los registros realizados por un solo usuario y se mostrara en el apartado "Mi Perfil".
-    - getTotalProfileWeightDifferenceRegisters: este método es igual que el anterior solo que los valores de la grafica, en lugar de ser el peso, son las diferencias de peso entre registros.
-    - getTotalGroupRegisters: este endpoint da los datos para una grafica con todos los registros de todos los usuarios que hayan realizado en un grupo, podrás comparar tus datos con tus compañeros de grupo de forma visual. Se muestra en el apartado de grupos.
-    - getGroupPoints: estos datos para las graficas proporcionan el nombre de usuario y sus puntos para cada atleta en un grupo.
+    - getTotalProfileRegisters: este endpoint proporciona los datos para crear una gráfica con todos los registros realizados por un solo usuario y se mostrara en el apartado "Mi Perfil".
+    - getTotalProfileWeightDifferenceRegisters: este método es igual que el anterior solo que los valores de la gráfica, en lugar de ser el peso, son las diferencias de peso entre registros.
+    - getTotalGroupRegisters: este endpoint da los datos para una gráfica con todos los registros de todos los usuarios que hayan realizado en un grupo, podrás comparar tus datos con tus compañeros de grupo de forma visual. Se muestra en el apartado de grupos.
+    - getGroupPoints: estos datos para las gráficas proporcionan el nombre de usuario y sus puntos para cada atleta en un grupo.
 
 - **Parte Cliente**
 
-  Como indicamos antes para la generación de las graficas se ha usado la librería **ngx-charts**. Esta librería te ofrece gráficos que puedes personalizar y modificar para tus aplicaciones.
+  Como indicamos antes para la generación de las gráficas se ha usado la librería **ngx-charts**. Esta librería te ofrece gráficos que puedes personalizar y modificar para tus aplicaciones. En nuestro caso hemos escogido algunos según nuestras necesidades.
 
-  - Tipos de gráficos
   - Gráficos reutilizables (modulo y componentes únicos)
-  - Traspaso de datos por medio de inputs
-  - Estilos
 
+    Este framework te ofrece un componente que se puede configurar con diferentes parámetros para cada tipo de gráfico. En nuestro caso se usan el mismo tipo de gráfica en varias situaciones, es por eso que se decidió unificar todo por medio de un solo modulo. Ademas de este modulo único, cada componente de gráfica esta parametrizada para que funcione en diferente tipo de datos usando un único componente.
+
+    Este es el modulo que usamos para esta funcionalidad.
+
+    ![](img/alvaro/Screenshot from 2021-06-11 20-24-51.png)
+
+    En este modulo se declaran los componentes de las gráficas que van a ser usadas en la aplicación. 
+
+    A continuación, este modulo se exporta otros módulos donde vayan a usarse, por ejemplo en el modulo de perfil o de grupos.
+
+    ![](/home/alvaro/Documents/app/img/alvaro/Screenshot from 2021-06-11 20-35-03.png)
+
+  - Traspaso de datos por medio de inputs
+
+    Para que estos componentes funcionen correctamente de forma común para varias veces se le pasa desde el componente que vaya a ser usado los datos por medio de inputs.
+
+    Aquí podemos ver como se le meten los datos a un componente.
+
+    ![](/home/alvaro/Documents/app/img/alvaro/Screenshot from 2021-06-11 20-40-11.png)
+
+    Estos datos se reciben en la parte typescript del componente.
+
+    ![](/home/alvaro/Documents/app/img/alvaro/Screenshot from 2021-06-11 20-43-41.png)
 
 
 ---
@@ -2257,6 +2277,20 @@ END;
 El objetivo del procedure anterior es actualizar el índice de la dieta de cada usuario.
 
 De esta forma, un usuario podrá crear su dieta en cualquier momento.
+
+<hr>
+
+# 6. Conclusiones
+
+Para finalizar, este proyecto nos ha llenado de orgullo y satisfacción, porque hemos sabido emplear y adquirir conocimientos nuevos a un proyecto de cierta envergadura dentro del tiempo establecido.
+
+Hemos aprendido a ser aún más autodidactas y resolutivos que en el resto del curso. Ademas, no solo hemos mejorado en aspectos técnicos del desarrollo, si no, en la gestión del proyecto y analizar y desglosar nuevas funcionalidades antes de ponernos a programar.
+
+Otro de los factores a destacar en este proyecto es el trabajo en equipo. Se ha conseguido llevar mas del 80% de las funcionalidades previstas desde un principio en plazo y con una división de trabajo entre los integrantes del equipo perfectas.
+
+En relación a lo anterior, también hemos aprendido a manejar situaciones de estrés, ya que solo nos teníamos a nosotros mismos para resolver nuestras dudas y acabar las funcionalidades a tiempo.
+
+En definitiva, ha sido una experiencia y un trabajo completamente satisfactorio, un proyecto que sin duda seguiremos llevando hacia delante y un curso no para repetir, pero si para recordar.
 
 
 <a name="referencias"></a>
