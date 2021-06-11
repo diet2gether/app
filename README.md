@@ -1,25 +1,25 @@
 # Memoria Diet2gether
 
 1. [Presentación del proyecto](#presentation)
-   1. [Introducción](# 1. Introducción)
-   2. [Objetivos](# 2. Objetivos)
-   3. [Tecnologías y herramientas empleadas](# 3. Tecnologías y herramientas empleadas)
+   1. [Introducción](#intro)
+   2. [Objetivos](#objetivos)
+   3. [Tecnologías y herramientas empleadas](#tecnologias)
 2. [Diseño del sistema.](#design)
-   1. [Arquitectura del sistema.](# 1. Arquitectura del sistema.)
-   2. [Requisitos del sistema.](# 2. Requisitos del sistema.)
-   3. [Definición de interfaces de usuario.](# 3. Definición de interfaces de usuario)
-   4. [Planificación temporal.](# 4. Planificación temporal.)
+   1. [Arquitectura del sistema.](#arquitectura)
+   2. [Requisitos del sistema.](#requisitos)
+   3. [Definición de interfaces de usuario.](#definicion)
+   4. [Planificación temporal.](#planificacion_temp)
    5. Especificación del plan de pruebas.
 3. [Desarrollo del sistema.](#development)
-   1. [Planificación de las actividades de desarrollo.](# 1. Planificación de las actividades de desarrollo.)
-   2. [Descripción del entorno de desarrollo.](# 2. Descripción del entorno de desarrollo.)
-   3. [Desarrollo.](# 3. Desarrollo)
-   4. [Documentación.](# 4. Documentación)
-4. [Despliegue e implantación.](# 4. Despliegue e implantación)
-   1. [Implantación del sistema y pruebas.](# 1. Implantación del sistema y pruebas.)
-      1. [Instalación de servidores y aplicaciones.](# 1. Implantación del sistema y pruebas.)
-   2. [Formación.](# 2. Formación)
-      1. [Manual de usuario.](# 2. Formación)
+   1. [Planificación de las actividades de desarrollo.](#planificacion_act)
+   2. [Descripción del entorno de desarrollo.](#descripcion)
+   3. [Desarrollo.](#desarrollo)
+   4. [Documentación.](#documentacion)
+4. [Despliegue e implantación.](#despliegue)
+   1. [Implantación del sistema y pruebas.](#implantacion_1)
+      1. [Instalación de servidores y aplicaciones.](#implantacion_2)
+   2. [Formación.](#formacion_1)
+      1. [Manual de usuario.](#formacion_2)
 5. Mantenimiento.
 6. Conclusiones.
 7. Referencias.
@@ -30,13 +30,14 @@
 
 # 1. Presentación del proyecto
 
+<a name="intro"></a>
 ## 1. Introducción
 
 Diet2Gether es una aplicación web y móvil que tiene como objetivo mejorar la salud de los usuarios de forma divertida y competitiva.
 
 La aplicación fue concebida debido a una necesidad real de poder mejorar nuestra salud. A la vez que se cumplían objetivos, se aumentaba los conocimientos sobre las tecnologías y metodologías de desarrollo.
 
-
+<a name="tecnologias"></a>
 ## 2. Objetivos
 
 En este apartado se listaran los objetivos que se han perseguido durante el desarrollo de Diet2Gether:
@@ -46,8 +47,8 @@ En este apartado se listaran los objetivos que se han perseguido durante el desa
 * Añadir un proyecto de considerable envergadura a nuestro currículo.
 * Aprender a trabajar en equipo.
 * Saber resolver problemas de manera autosuficiente.
-  
-  
+
+<a name="objetivos"></a>
 ## 3. Tecnologías y herramientas empleadas
 
 Diet2gether es una aplicación disponible para dispositivos móviles y entornos web. Para llevar a cabo el desarrollo se ha usado el patrón de "API REST".
@@ -68,6 +69,7 @@ Desde la parte del servidor se proporcionan unos "endpoints" que son consumidos 
 <a name="design"></a>
 # 2. Diseño del sistema.
 
+<a name="arquitectura"></a>
 ## 1. Arquitectura del sistema.
 
 En esta sección mostramos un resumen de la arquitectura actual de nuestro sistema de producción.
@@ -104,7 +106,7 @@ En esta sección mostramos un resumen de la arquitectura actual de nuestro siste
    
    
 
-
+<a name="requisitos"></a>
 ## 2. Requisitos del sistema.
 
 A continuación se explican los requisitos del sistema en dos partes, a nivel de usuario y a nivel de implantación.
@@ -173,7 +175,7 @@ Se recomienda un servidor con sistema operativo Linux que cumpla con los siguien
 
   
 
-
+<a name="definicion"></a>
 ### 3. Definición de interfaces de usuario
 
 En esta sección se definirá el funcionamiento de cada pantalla de la aplicación.
@@ -377,7 +379,7 @@ En esta sección se definirá el funcionamiento de cada pantalla de la aplicaci�
      ![image-20210609203846390](img/alvaro/image-20210609203846390.png)
 
 
-
+<a name="planificacion_temp"></a>
 ### 4. Planificación temporal
 
 En este apartado veremos cual  ha sido la distribución de las tareas, y que esquema se pensó en un primer lugar para las funcionalidades de Diet2gether. 
@@ -402,6 +404,7 @@ Finalmente, la planificación cambio a la actual dejando el modo objetivo de gru
 <a name="development"></a>
 ## 3. Desarrollo del sistema
 
+<a name="planificacion_act"></a>
 ### 1. Planificación de las actividades de desarrollo.
 
 En esta sección explicaremos cómo hemos realizado la planificación de desarrollo.
@@ -621,7 +624,7 @@ Aquí vamos a explicar cómo hemos definido nuestras ramas de Java/Spring.
 
 ##### 
 
-
+<a name="descripcion"></a>
 ### 2. Descripción del entorno de desarrollo.
 
 En esta sección se indican las distintas herramientas utilizadas para desarrollar la aplicación.
@@ -878,6 +881,7 @@ También debemos configurar las credenciales del servidor Apache Tomcat e indica
 
 ---
 
+<a name="desarrollo"></a>
 ### 3. Desarrollo
 
 En este apartado se volverá a hacer un despiece del desarrollo según sus fases o "sprints", pero esta vez se explicara como fue la implementación de las funcionalidades con mas impacto en la aplicación.
@@ -1121,6 +1125,7 @@ Esta funcionalidad añade graficas para entender Diet2gether de una forma mas vi
   - Traspaso de datos por medio de inputs
   - Estilos
 
+<a name="documentacion"></a>
 ### 4. Documentación
 
 En esta sección definiremos la documentación de nuestro proyecto, especificando los detalles de la estructura y modelo de la aplicación.
@@ -1143,8 +1148,11 @@ zxcv
 
 ---
 
+<a name="despliegue"></a>
 ## 4. Despliegue e implantación
 
+<a name="implantacion_1"></a>
+<a name="implantacion_2"></a>
 ### 1. Implantación del sistema y pruebas.
 
 #### Tomcat (Linux)
@@ -1848,6 +1856,8 @@ A continuación veremos algún ejemplo de utilización del portal web de Jenkins
 
 ---
 
+<a name="formacion_1"></a>
+<a name="formacion_2"></a>
 ### 2. Formación
 
 En esta sección detallaremos el manual de usuario, donde se indican los pasos a seguir para realizar la implantación.
