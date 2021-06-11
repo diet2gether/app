@@ -1,15 +1,17 @@
+![diet2gether](img/diet2gether.png)
+
 # Memoria Diet2gether
 
-1. [Presentación del proyecto](#presentation)
-   1. [Introducción](#intro)
-   2. [Objetivos](#objetivos)
-   3. [Tecnologías y herramientas empleadas](#tecnologias)
+1. [Presentación del proyecto.](#presentation)
+   1. [Introducción.](#intro)
+   2. [Objetivos.](#objetivos)
+   3. [Tecnologías y herramientas empleadas.](#tecnologias)
 2. [Diseño del sistema.](#design)
    1. [Arquitectura del sistema.](#arquitectura)
    2. [Requisitos del sistema.](#requisitos)
    3. [Definición de interfaces de usuario.](#definicion)
    4. [Planificación temporal.](#planificacion_temp)
-   5. [Estructura y modelo de la aplicación](#estructura)
+   5. [Estructura y modelo de la aplicación.](#estructura)
 3. [Desarrollo del sistema.](#development)
    1. [Planificación de las actividades de desarrollo.](#planificacion_act)
    2. [Descripción del entorno de desarrollo.](#descripcion)
@@ -19,8 +21,8 @@
       1. [Instalación de servidores y aplicaciones.](#implantacion_2)
    2. [Formación.](#formacion_1)
       1. [Manual de usuario.](#formacion_2)
-5. Mantenimiento.
-6. Conclusiones.
+5. [Mantenimiento.](#mantenimiento)
+6. [Conclusiones.](#conclusiones)
 7. [Referencias.](#referencias)
 
 ---
@@ -2178,7 +2180,7 @@ Para ello debemos seguir los siguientes pasos:
 - La copiamos a nuestro dispositivo Android para probarla.
 
 
-
+<a name="mantenimiento"></a>
 ## 5. Mantenimiento
 
 En esta sección vamos a definir el mantenimiento que realizamos sobre nuestro proyecto.
@@ -2278,9 +2280,8 @@ El objetivo del procedure anterior es actualizar el índice de la dieta de cada 
 
 De esta forma, un usuario podrá crear su dieta en cualquier momento.
 
-<hr>
-
-# 6. Conclusiones
+<a name="conclusiones"></a>
+## 6. Conclusiones
 
 Para finalizar, este proyecto nos ha llenado de orgullo y satisfacción, porque hemos sabido emplear y adquirir conocimientos nuevos a un proyecto de cierta envergadura dentro del tiempo establecido.
 
@@ -2292,16 +2293,35 @@ En relación a lo anterior, también hemos aprendido a manejar situaciones de es
 
 En definitiva, ha sido una experiencia y un trabajo completamente satisfactorio, un proyecto que sin duda seguiremos llevando hacia delante y un curso no para repetir, pero si para recordar.
 
-
 <a name="referencias"></a>
 ## 7. Referencias
 
 En esta sección se indican varias referencias utilizadas durante el proceso de desarrollo de la aplicación.
 
 - [Stackoverflow](https://stackoverflow.com)
+
+  Hemos utilizado esta web para resolver dudas en todas las secciones del proyecto.
+
 - [Angular](https://angular.io)
+
+  Hemos utilizado esta web para resolver dudas sobre Angular.
+
 - [Ionic](https://ionicframework.com)
+
+  Hemos utilizado esta web para realizar el proyecto de aplicación móvil.
+
 - [Spring](https://spring.io)
+
+  Hemos utilizado esta web para resolver dudas sobre Java/Spring.
+
 - [Bootstrap](https://getbootstrap.com)
+
+  Hemos utilizado esta web para añadir estilos personalizados a la web.
+
 - [CSS-Tricks](https://css-tricks.com)
 
+  Hemos utilizado esta web para añadir estilos personalizados a la web y también a la aplicación móvil.
+
+- [Udemy](https://www.udemy.com)
+
+  Hemos utilizado esta web para formarnos en cursos de Ionic y repasar algunos conceptos de Angular.
