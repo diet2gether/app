@@ -1,5 +1,19 @@
 ![diet2gether](img/diet2gether.png)
 
+Raúl Morales Ruiz
+
+- [GitHub](https://github.com/raulmoralesruiz)
+- [LinkedIn](https://www.linkedin.com/in/raulmoralesruiz/)
+
+Álvaro Rueda Sánchez
+
+- [GitHub](https://github.com/alvarodachez)
+- [LinkedIn](https://www.linkedin.com/in/%C3%A1lvaro-rueda-s%C3%A1nchez-6812511a0/)
+
+Desarrollo de Aplicaciones Web
+
+---
+
 # Memoria Diet2gether
 
 1. [Presentación del proyecto.](#presentation)
